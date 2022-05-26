@@ -179,14 +179,14 @@ footer{
 .foot-heading{
 	color:#ffffff !important;
 	font-family: 'Montserrat';
-	font-size: 18px;
+	font-size: 18px !important;
 	font-weight: 600;
 	padding-bottom: 16px;
 }
 .foot-menu li{
 	color:#bcbcbc;
 	font-family:'Nunito Sans';
-	font-size: 12px;
+	font-size: 15px;
 	padding-bottom: 5px;
 }
 .foot-menu-sub {
