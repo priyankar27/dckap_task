@@ -1,0 +1,326 @@
+/*---------Header--------*/
+header{
+	padding:30px 45px;
+}
+.header-section {
+    width: 50%;
+    float: left;
+}
+.nav{
+	font-family: 'Montserrat';
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px 25px;
+}
+.nav-menu{
+	text-align: right;
+}
+.nav-item{
+	list-style-type:none;
+	padding:0px 10px;
+	display:inline-block;
+	cursor: pointer;
+	font-weight: 600;
+}
+.nav-item:hover, .active{
+	color:#6bddd9;
+}
+
+ul.toggle-nav {
+	display: none;
+    position: absolute;
+    background: #fff;
+    right: 0px;
+    width: 100%;
+    text-align: left;
+    top:75px;
+}
+
+li.toggle-nav-item {
+    padding: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+button.toggle-menu, .toggle-menu-close {
+	float: right;
+	display: none;
+    background: none;
+    border: none;
+    font-size: 20px;
+}
+
+/*---------Banner--------*/
+.banner{
+	clear: both;
+}
+.banner-info{
+	background-image: url("../images/banner.jpg");
+	height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner-text {
+    text-align: center;
+    padding: 86px;
+}
+.banner-info .banner-heading{
+	font-family: 'Montserrat';
+	font-size: 38px;
+	font-weight: 600;
+	color:white;
+}
+.banner-info .banner-content{
+	font-family: 'Nunito Sans';
+	font-size: 18px;
+	color:white;
+}
+/*---------Flex--------*/
+.flex{
+	background-color: #10c9c3;
+	padding:100px 45px;
+	color: #fff;
+}
+.flex-items{
+	padding-left: 55px;
+    width: 20%;
+    display: inline-flex;
+}
+.flex-img {
+	position: relative;
+	top: 5px;
+	right: 15px;
+}
+.flex-no{
+	font-family: 'Montserrat';
+	font-size: 18px;
+	margin-bottom:5px;
+}
+.flex-content{
+	font-family: 'Montserrat';
+	font-size: 12px;
+	
+}
+/*---------About me--------*/
+.about-image{
+	background-image: url("../images/about-image.jpg");
+	height: 550px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+.about-section {
+    width: 50%;
+    float: left;
+}
+.about-info{
+	background: #e5e5e5;
+	padding: 129px 0px;
+}
+p.about-heading {
+    padding: 0px 50px 0px 50px;
+    font-weight: 600;
+    font-size: 2.5vw;
+}
+p.about-content {
+    padding: 0px 130px 0px 50px;
+}
+.about-section .about-heading{
+	color:black;
+	font-family: 'Montserrat';
+	font-size: 30px;
+	
+}
+.about-section .about-content{
+	color:black;
+	font-family: 'Nunito Sans';
+	font-size: 14px;
+}
+
+/*---------Need a Project--------*/
+section.project {
+    padding:70px 0px 70px 0px;
+    text-align: center;
+    clear: both;
+}
+.project-title{
+	color:black;
+	font-family: 'Montserrat';
+	font-size: 30px;
+	text-align: center;
+	padding: 0px 0px 25px 0px;
+	font-weight: 600;
+}
+.project-content{
+	color:black;
+	font-family:'Nunito Sans';
+	font-size: 16px;
+	text-align: center;
+}
+.button-content {
+    padding: 49px 0px 0px 0px;
+}
+.project button{
+	color:white;
+	border:1px solid #10c9c3;
+	background-color: #10c9c3;
+	padding: 15px 45px;
+	font-family: 'Montserrat';
+	font-size: 12px;
+}
+/*---------Footer--------*/
+footer{
+	background-color: #000000;
+	padding: 70px 45px;
+}
+    
+    footer li{ list-style-type: none;
+}
+.foot-heading{
+	color:#ffffff !important;
+	font-family: 'Montserrat';
+	font-size: 18px;
+	font-weight: 600;
+	padding-bottom: 16px;
+}
+.foot-menu li{
+	color:#bcbcbc;
+	font-family:'Nunito Sans';
+	font-size: 12px;
+	padding-bottom: 5px;
+}
+.foot-menu-sub {
+    display: inline-block;
+    width: 40%;
+}
+.foot-menu{
+	display:inline-block;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: text-top;
+    text-align: left;
+}
+.foot-about {
+    width: 42%;
+}
+.foot-contact {
+    width: 20%;
+}
+.foot-options {
+    width: 20%;
+}
+
+/*---------media queries--------*/
+
+@media only screen and (max-width: 480px) {
+	.flex-items{
+    	width: 100% !important;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+	p.banner-content {
+	    font-size: 15px !important;
+	}
+	.banner-text {
+	    padding: 86px 15px;
+	}
+	.banner-info .banner-heading{
+		font-size: 25px;
+	}
+	p.about-content {
+	    padding: 0px 50px 0px 50px;
+	}
+}
+
+
+@media only screen and (max-width: 730px) {
+	section.flex {
+	    padding: 20px;
+	}
+	.flex-items {
+	    padding: 20px 0px !important;
+	    width: 40% !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	button.toggle-menu {
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.flex-items {
+	    padding: 20px;
+	    width: 40%;
+	}
+	.about-section {
+	    width: 100%;
+	}
+	footer {
+	    padding: 70px 20px;
+	}
+	.foot-about, .foot-contact {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 20px;
+	    border-bottom: 1px solid #fff;
+	    padding-bottom: 10px;
+	}
+	.foot-options, .foot-social {
+	    width: 100%;
+	    text-align: center !important;
+	}
+	.foot-menu-sub, .foot-social {
+	    width: 100%;
+	}
+	.foot-menu-sub li, .foot-social li {
+	    padding: 0px 10px;
+	    border-right: 1px solid #fff;
+	    margin: 10px 0px;
+	    text-align: center;
+	    display: inline-flex;
+	}
+	.foot-menu-sub li:last-child, .foot-social li:last-child {
+	    border: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 992px) {
+	.flex-items {
+    	padding-left: 42px !important;
+	}
+	.flex-content {
+    	font-size: 11px;
+	}
+	.about-info {
+    	padding: 111px 0px;
+	}
+	.about-content{
+		font-size: 14px !important;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.flex-items {
+    	padding-left: 40px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
